@@ -50,15 +50,15 @@ function Cards({users})
       <div class="card h-100">
        
         <div class="card-body">
-          <h6 class ="card-title">Visit Time:</h6>
+          <h6 class ="card-title">LongURL:</h6>
           <h5 class="card-title">
            {user.longurl}
           </h5>
-          <h6 class ="card-title">Country</h6>
+          <h6 class ="card-title">EMAIL</h6>
           <h5 class="card-title">
            {user.email}
           </h5>
-          <h6 class ="card-title">Device Details</h6>
+          <h6 class ="card-title">SHORTURL</h6>
           <h5 class="card-title">
            {user.shorturl}
           </h5>

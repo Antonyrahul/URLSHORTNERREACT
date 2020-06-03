@@ -5,6 +5,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import Cards from './cards.js'
 import AddOneCard from './Addonecard.js'
 import { logDOM } from '@testing-library/react';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'; 
 
 
 function App() {
@@ -44,7 +45,9 @@ function App() {
   //         })
   //       },[])
   return (
+    
     <div className="App">
+     <button> <Link to = "/Addonecard">red</Link></button>
     <div class="card-body">
     <h5 class="card-title">Enter the long url below</h5>
   <div> 
@@ -62,6 +65,10 @@ function App() {
   
   
   </div>
+  
+           
+              
+  
   );
 }
 
